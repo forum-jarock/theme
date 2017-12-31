@@ -17,6 +17,7 @@
   },
   "homepage": "https://github.com/forum-jarock/theme#readme",
   "devDependencies": {
+    "css-loader": "^0.28.7",
     "extract-text-webpack-plugin": "^3.0.2",
     "node-sass": "^4.7.2",
     "sass-loader": "^6.0.6",
