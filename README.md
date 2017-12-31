@@ -6,6 +6,7 @@ Repozytorium powstało po to, aby chętni użytkownicy mogli dodać bezpośredni
 1. Sklonuj to repozytorium na swój komputer
 2. Przejdź do folderu zawierającego to repozytorium
 3. Uruchom polecenie ``npm install``
+
 Po zakończeniu instalacji zależności możesz uruchomić polecenie ``npm run build``,
 aby skompilować pliki \*.sass na jeden plik ``dist/custom.css``. Ten plik najlepiej
 zaimportować do dodatku Stylus(Stylish) i sprawdzić wprowadzone zmiany.
