@@ -1,0 +1,39 @@
+// Różne
+
+.ipsBox_transparent
+  background: transparent
+
+// BREADCRUMB
+.ipsBreadcrumb
+  &.ipsBreadcrumb_top, &.ipsBreadcrumb_bottom
+    opacity: 1
+
+  [data-action]
+    color: $color-white
+
+  ul li, ul:last-child li:last-child
+    color: $color-white
+    opacity: 1
+
+// BACK TO TOP
+#back_to_top
+  padding: .5em
+  border-radius: 100%
+  box-shadow: 2px 2px 4px 0 rgba(0, 0, 0, .75)
+  background-color: #404061
+  position: fixed
+  bottom: -2em
+  right: 1em
+  font-size: 1.5rem
+  color: #f2f2f2
+  transition: bottom .5s, opacity .5s
+  opacity: .75
+  z-index: 100
+
+  &.visible
+    bottom: 1em
+  &.visible:hover
+    opacity: 1
+
+  @media screen and (min-width: 720px)
+    font-size: 2rem

@@ -1,0 +1,29 @@
+// Wszelkiego rodzaju listy
+
+// Lista forum/subforum/tematów, panel administracyjny, widgety
+.ipsButtonBar
+  background-color: #20203b
+.cForumList,
+.cTopicList,
+#elModCPContent .ipsBox_transparent
+
+  .ipsType_sectionTitle
+    background-color: #20203b
+
+  .ipsDataItem
+    border: 0
+
+    &.ipsDataItem_selected
+      background: opacify($color-main-lighter-transparent, .1)
+    &.ipsDataItem_unread
+      background-color: $color-main-lighter-transparent
+    a
+      color: $color-white
+
+.ipsWidget
+  border: 1px solid #20203b
+  border-radius: 2px 2px 0 0
+  &, &.ipsWidget_vertical, &.ipsWidget_horizontal
+    .ipsWidget_title, .ipsType_sectionTitle
+      background-color: #20203b
+      border-radius: 0
