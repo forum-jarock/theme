@@ -1,0 +1,13 @@
+// Tutaj zamieszczamy reguły dotyczące tagu <body>
+body#top
+  background-image: url('/public/bg.jpg')
+  background-size: contain
+  background-position: center
+  background-attachment: fixed
+  background-repeat: no-repeat
+  background-color: #15152d
+  scroll-behavior: smooth // Tymczasowo
+
+  // Zmiana rozmiaru tła dla małych ekranów, aby było widać postacii
+  @media screen and (max-width: 800px)
+    background-size: cover
