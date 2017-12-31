@@ -37,3 +37,117 @@
 
   @media screen and (min-width: 720px)
     font-size: 2rem
+
+// GRUPY I LEGENDA
+#legend
+  margin-top: 2em
+  color: #a0a0a0
+  width: 100%
+  ul
+    list-style-type: none
+    margin: 0
+    padding: 0
+    overflow: auto
+  li
+    float: left
+    margin-right: 0.25em
+    display: inline-block
+    line-height: 20px
+    &:before
+      font-family: "FontAwesome"
+      content: "\f061"
+      color: #a0a0a0
+      display: inline-block
+      width: 1em
+
+.group-admin-it
+  color:#bf1200
+  font-weight: bold
+
+.group-admin
+  color:#dd1a00
+  font-weight: bold
+
+.group-ekipa
+  color: #00b7ff
+  font-weight: bold
+
+.group-grafik
+  color: #ae00ff
+  font-weight: bold
+
+.group-moderator
+  color: #008c54
+  font-weight: bold
+
+.group-moderator-dzialu
+  color: #01c42f
+  font-weight: bold
+
+.group-moderator-techniczny
+  color: #db6300
+  font-weight: bold
+
+.group-staly-bywalec
+  color: #c4d800
+
+.group-streamer
+  color: #00ffff
+  font-weight: bold
+
+.group-technik-sprzetowiec
+  color: #ea9600
+  font-weight: bold
+
+// HOVERCARD
+.ipsHovercard
+  background: #17172a
+  border-color: #20203b
+  color: #f2f2f2
+
+  .ipsAreaBackground
+    background: #20203b
+
+  .ipsHovercard_stem
+    border-top-color: #20203b
+    &:before
+      border-top-color: #20203b
+
+// STRUMIEŃ AKTYWNOŚCI
+html[dir='ltr'] .ipsStream.ipsStream_withTimeline
+  .ipsStreamItem
+    a
+      color: $color-white
+    .ipsType_richText, .ipsStreamItem_status
+      color: #c2c2c2
+
+    &.ipsStreamItem_contentBlock:not(.ipsModerated)
+      background: #17172a
+      border: 0
+
+    &:before, &:after
+      border-color: transparent #17172a transparent transparent
+
+// BANNERY
+.top_message
+  margin: auto
+  margin-top: 2em
+  background-image: url("https://i.imgur.com/poMTGop.jpg")
+  background-size: cover
+  background-position: center top
+  background-repeat: no-repeat
+  color: #f2f2f2
+  text-align: center
+  font-size: 1.5em
+  text-shadow: 2px 2px 8px rgba(255, 255, 255, .5)
+  max-width: 960px
+  .dark_bg
+    background-color: rgba(0, 0, 0, .5)
+    height: 100%
+    padding: 1.5em
+#banner
+  display: block
+  margin: auto
+  margin-top: 2em
+  max-width: 100%
+  max-height: 200px

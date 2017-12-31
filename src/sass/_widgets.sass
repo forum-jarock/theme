@@ -1,0 +1,30 @@
+// WIDGETY
+
+// Główna klasa widgetu
+.ipsWidget
+  /*
+    Usunięcie obramowania dla chatboxa na stronie głównej
+    Spowodowane dodaniem .ipsWidget do kontenera chatboxa
+    w szablonie tegoż pluginu
+    */
+  & > .ipsWidget
+    border: 0 !important
+  border: 1px solid #20203b
+  border-radius: 2px 2px 0 0
+  &, &.ipsWidget_vertical, &.ipsWidget_horizontal
+    .ipsWidget_title, .ipsType_sectionTitle
+      background-color: #20203b
+      border-radius: 0
+
+// Cytaty i spoilery
+.ipsQuote, .ipsSpoiler
+  background: transparent
+  border: 1px solid #20203b
+  border-radius: 2px 2px 0 0
+  .ipsQuote_citation, .ipsSpoiler_header
+    background: #20203b
+    border-radius: 0
+    color: $color-white
+
+    a
+      color: inherit

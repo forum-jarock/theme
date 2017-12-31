@@ -7,11 +7,13 @@
 .ipsBox_transparent
   &, & .ipsType_richText
     color: #ccc
-  // & a
-  //   color: #c5c5c5
 
 .ipsType_pageTitle
   color: $color-white
+
+  // Podświetlanie edytowalnego tytułu
+  [data-role="editableTitle"]:hover
+    background: transparent
 
 a
   &:hover
