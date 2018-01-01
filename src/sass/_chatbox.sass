@@ -19,6 +19,10 @@
   color: $color-white
 .bimcb_chatArea.ipsBox.ipsClearfix
   border-color: #20203b
-  background: rgba(20,20,36, .75)
+  background: rgba(20,20,36, .25)
+  transition: background .5s
+  // JS dodaje klasę .focused kiedy pole tekstowe jest aktywne
+  &.focused
+    background: rgba(20,20,36, .75)
 .bimcb_chatInput
   color: $color-white
