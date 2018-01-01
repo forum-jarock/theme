@@ -4,7 +4,7 @@ Oficjalne repozytorium motywu na https://forum.jarock.pl
 Repozytorium powstało po to, aby chętni użytkownicy mogli dodać bezpośrednio coś od siebie
 # Jak korzystać?
 1. Zainstaluj [Node.js](https://nodejs.org/) w wersji 8.x.x LTS wraz z NPM w wersji 5.x.x
-2. Sklonuj to repozytorium na swój komputer
+2. Sforkuj to repozytorium, a następnie sklonuj swojego forka na swój komputer
 3. Przejdź do katalogu, gdzie zapisałeś tego git'a
 4. Otwórz wiersz poleceń i wpisz ``npm install``, aby zainstalować zależności
 
@@ -20,5 +20,5 @@ Polecenia:
 
 [1] - z racji tego, że do kompilacji używany jest ``webpack``, to konieczne jest skompilowanie
 także pliku ``index.js``. Różnica pomiędzy poleceniami ``build`` a ``build-watch``
-polega na tym, że to pierwsze usuwa plik ``index.js`` z folderu wynikowego, a to drugi nie.
+polega na tym, że to pierwsze usuwa plik ``index.js`` z folderu wynikowego, a to drugie nie.
 Plik ``dist/index.js`` jest zupełnie niepotrzebny i można go usunąć.
