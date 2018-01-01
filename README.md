@@ -20,5 +20,5 @@ Polecenia:
 
 [1] - z racji tego, że do kompilacji używany jest ``webpack``, to konieczne jest skompilowanie
 także pliku ``index.js``. Różnica pomiędzy poleceniami ``build`` a ``build-watch``
-polega na tym, że to pierwsze usuwa plik ``index.js`` z folderu wynikowego, a ten drugi nie.
+polega na tym, że to pierwsze usuwa plik ``index.js`` z folderu wynikowego, a to drugi nie.
 Plik ``dist/index.js`` jest zupełnie niepotrzebny i można go usunąć.
