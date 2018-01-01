@@ -4,9 +4,12 @@ Oficjalne repozytorium motywu na https://forum.jarock.pl
 Repozytorium powstało po to, aby chętni użytkownicy mogli dodać bezpośrednio coś od siebie
 # Jak korzystać?
 1. Zainstaluj [Node.js](https://nodejs.org/) w wersji 8.x.x LTS wraz z NPM w wersji 5.x.x
-2. Sforkuj to repozytorium, a następnie sklonuj swojego forka na swój komputer
+2. Sforkuj i sklonuj to repozytorium na swój komputer ([poradnik](https://help.github.com/articles/fork-a-repo/))
 3. Przejdź do katalogu, gdzie zapisałeś tego git'a
 4. Otwórz wiersz poleceń i wpisz ``npm install``, aby zainstalować zależności
+5. Pisz, ``git push``
+6. ???
+7. Profit
 
 Pliki źródłowe znajdują się w folderze ``sass``, a głównym plikiem jest
 ``sass/index.sass``, który importuje pozostałe pliki
