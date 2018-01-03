@@ -1,4 +1,4 @@
-# Motyw forum.jarock.pl (v1.2.3)
+# Motyw forum.jarock.pl (v1.2.4)
 Oficjalne repozytorium motywu na https://forum.jarock.pl
 
 ![Travis Status](https://api.travis-ci.org/forum-jarock/theme.svg?branch=master)
