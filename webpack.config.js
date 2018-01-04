@@ -1,5 +1,6 @@
 const path = require('path')
 const ExtractTextPlugin = require('extract-text-webpack-plugin')
+const WebpackShellPlugin = require('webpack-shell-plugin')
 
 let extractSass = new ExtractTextPlugin('custom.css')
 
@@ -18,6 +19,7 @@ exports.default = {
     path: path.resolve(__dirname, 'dist')
   },
   plugins: [
-    extractSass
+    extractSass,
+    new WebpackShellPlugin({onBuildEnd: 'rm ./dist/index.js'})
   ]
 }
