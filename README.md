@@ -21,9 +21,4 @@ to należy utworzyć nowy.
 
 Polecenia:
 * ``npm run build`` - kompiluje pliki źródłowe do ``dist/custom.css``
-* ``npm run build-watch`` <sup>[1]</sup> - kompiluje pliki źródłowe po każdej modyfikacji
-
-[1] - z racji tego, że do kompilacji używany jest ``webpack``, to konieczne jest skompilowanie
-także pliku ``index.js``. Różnica pomiędzy poleceniami ``build`` a ``build-watch``
-polega na tym, że to pierwsze usuwa plik ``index.js`` z folderu wynikowego, a to drugie nie.
-Plik ``dist/index.js`` jest zupełnie niepotrzebny i można go usunąć.
+* ``npm run build-watch`` - kompiluje pliki źródłowe po każdej modyfikacji
