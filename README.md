@@ -1,7 +1,7 @@
 # Motyw forum.jarock.pl (v1.3.8)
 Oficjalne repozytorium motywu na https://forum.jarock.pl
 
-![Travis Status](https://api.travis-ci.org/forum-jarock/theme.svg?branch=master)
+[![Build Status](https://travis-ci.org/forum-jarock/theme.svg?branch=master)](https://travis-ci.org/forum-jarock/theme)
 # Po co?
 Repozytorium powstało po to, aby chętni użytkownicy mogli dodać bezpośrednio coś od siebie
 # Jak korzystać?
