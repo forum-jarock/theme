@@ -1,5 +1,5 @@
 .ipsDialog > div
-  background: #17172a
+  background: $color-purple
   color: $color-white
 
   .ipsDialog_title
@@ -11,5 +11,15 @@
   .ipsType_sectionHead, .ipsType_richText
     color: inherit
 
-  .ipsSelectTree, .ipsSelectTree *
-    color: $color-black !important
+  .ipsSelectTree
+    background: darken($color-purple, 5)
+    color: inherit
+
+  .ipsSelectTree_nodes, .ipsSelectTree_nodes [data-role='nodeList']
+    background: inherit
+
+  .ipsSelectTree_nodes [data-role="nodeList"] li .ipsSelectTree_item:not(.ipsSelectTree_itemDisabled):hover
+    background: $color-purple
+
+  .ipsSelectTree *
+    color: inherit
