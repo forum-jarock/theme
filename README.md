@@ -1,4 +1,4 @@
-# Motyw forum.jarock.pl (v1.6.1)
+# Motyw forum.jarock.pl (v1.7.0)
 Oficjalne repozytorium motywu na https://forum.jarock.pl
 
 [![Build Status](https://travis-ci.org/forum-jarock/theme.svg?branch=master)](https://travis-ci.org/forum-jarock/theme)
